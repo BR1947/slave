@@ -1,0 +1,41 @@
+Git
+
+****************************************************
+
+Git installation 
+
+On ubuntu 
+$sudo apt-get update
+$sudo apt-get install -y git
+
+git --version
+
+On RHEL/CentOS/Fedora
+$sudo yum -y update
+$sudo yum install -y git
+
+* Git commands
+
+1. To configure name and email globally for all users on a specific machine
+git config --global user.name BR1947
+git config --global user.email balakrishna.r1947@gmail.com
+
+
+2. create git repository directory
+mkdir <gitreponame>
+
+3. Initialize git repository
+cd git_repo/
+git init
+
+***************************************************************************
+
+
+To push : git remote add origin https://BR1947:"Generate new token"@github.com/BR1947/"git repository"
+
+*****************************************************************************
+
+If : error: remote origin already exists.
+
+git remote remove origin
+git remote add origin https://BR1947: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@github.com/BR1947/slave.git
